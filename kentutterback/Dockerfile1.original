@@ -7,7 +7,8 @@ RUN apt-get update && \
 	npm install -g -y typescript && \
 	npm install -g -y @angular/cli
 WORKDIR /app
-EXPOSE 80
+EXPOSE 63462
+EXPOSE 44336
 
 FROM microsoft/dotnet:2.1-sdk AS build
 WORKDIR /src

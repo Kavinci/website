@@ -3,7 +3,7 @@
   <PropertyGroup Label="Globals">
     <ProjectVersion>2.1</ProjectVersion>
     <DockerTargetOS>Linux</DockerTargetOS>
-    <ProjectGuid>7c755706-3d17-4081-902c-37ecf2da2fee</ProjectGuid>
+    <ProjectGuid>03a59dc4-6285-4711-9be5-4eeaa8f80344</ProjectGuid>
     <DockerLaunchAction>LaunchBrowser</DockerLaunchAction>
     <DockerServiceUrl>{Scheme}://localhost:{ServicePort}</DockerServiceUrl>
     <DockerServiceName>kentutterback</DockerServiceName>
