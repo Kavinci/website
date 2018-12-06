@@ -12,6 +12,7 @@
     <BuildServerSideRenderer>false</BuildServerSideRenderer>
     <DockerTargetOS>Linux</DockerTargetOS>
     <UserSecretsId>bad15f1a-6f6d-4ee6-9839-e9d781b07651</UserSecretsId>
+    <DockerComposeProjectPath>..\docker-compose.dcproj</DockerComposeProjectPath>
   </PropertyGroup>
 
   <ItemGroup>
