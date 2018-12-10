@@ -7,28 +7,28 @@
                 <span class='icon-bar'></span>
                 <span class='icon-bar'></span>
             </button>
-            <a class="link_purple_no-underline" [routerLink]='["/"]'>Kent Utterback</a>
+            <a class="link_no-underline" [routerLink]='["/"]'>Kent Utterback</a>
         </div>
         <div class=''></div>
         <div class='bullets_none' [ngClass]='{ "in": isExpanded }'>
             <ul class=''>
                 <li [routerLinkActive]='["link-active"]' [routerLinkActiveOptions]='{ exact: true }'>
-                    <a [routerLink]='["/"]' (click)='collapse()' class="link_purple_no-underline">
+                    <a [routerLink]='["/"]' (click)='collapse()' class="link_no-underline">
                         <i class='fas fa-home'></i> Home
                     </a>
                 </li>
                 <li [routerLinkActive]='["link-active"]'>
-                    <a [routerLink]='["/counter"]' (click)='collapse()' class="link_purple_no-underline">
+                    <a [routerLink]='["/counter"]' (click)='collapse()' class="link_no-underline">
                         <i class='fas fa-graduation-cap'></i> Counter
                     </a>
                 </li>
                 <li [routerLinkActive]='["link-active"]'>
-                    <a [routerLink]='["/fetch-data"]' (click)='collapse()' class="link_purple_no-underline">
+                    <a [routerLink]='["/fetch-data"]' (click)='collapse()' class="link_no-underline">
                         <i class='fas fa-th-list'></i> Fetch data
                     </a>
                 </li>
                 <li [routerLinkActive]='["link-active"]'>
-                    <a [routerLink]='["/generics"]' (click)='collapse()' class="link_purple_no-underline">
+                    <a [routerLink]='["/generics"]' (click)='collapse()' class="link_no-underline">
                         <i class='fas fa-paper-plane'></i> Generics
                     </a>
                 </li>
